@@ -1,6 +1,6 @@
 # Student-Led-Tutorial-2
 # Task: Tutorial for De Novo Assembly Using SPAdes
-# Date: February 20th
+# Date: October 22nd
 
 ## **Objective**
 Create a tutorial for your peers on conducting a de novo genome assembly using the SPAdes assembler. This tutorial will walk students through preparing the data, executing SPAdes, assessing the quality of the assembly, and visualizing the results.
