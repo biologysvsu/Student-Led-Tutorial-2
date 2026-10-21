@@ -51,8 +51,8 @@ fastq-dump --split-files ERR13601257
 - Subsample files for the tutorial, otherwise, the run will take up a lot of time.
 ```bash
 #Make sure seqtk is installed in the HPC beforehand. If not, use a conda environment.
-seqtk sample -s100 ERR13601257_1.fastq 0.10 > ERR13601257_subsampled_1.fastq   #Samples 10% of reads in file
-seqtk sample -s100 ERR13601257_2.fastq 0.10 > ERR13601257_subsampled_2.fastq   #Samples 10% of reads in file
+seqtk sample -s100 ERR13601257_1.fastq 0.05 > ERR13601257_subsampled_1.fastq   #Samples 5% of reads in file
+seqtk sample -s100 ERR13601257_2.fastq 0.05 > ERR13601257_subsampled_2.fastq   #Samples 5% of reads in file
 ```
 
 ## **Tasks and Deliverables**
@@ -74,7 +74,7 @@ seqtk sample -s100 ERR13601257_2.fastq 0.10 > ERR13601257_subsampled_2.fastq   #
 ### **Part 2: Running SPAdes**
 1. Perform de novo assembly using SPAdes:
 ```bash
-python3 ./SPAdes-3.15.0-Linux/bin/spades.py -1 trimmed_1.fastq -2 trimmed_2.fastq -o spades_output
+python3 ./SPAdes-3.15.0-Linux/bin/spades.py -1 trimmed_1.fastq -2 trimmed_2.fastq -o spades_output -t 16 -m 32
 ```
 - -1 and -2: Paired-end reads.
 - -o: Specify the output directory (e.g., spades_output).
