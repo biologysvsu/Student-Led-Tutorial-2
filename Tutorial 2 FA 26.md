@@ -18,10 +18,10 @@ Create a tutorial for your peers on conducting a de novo genome assembly using t
 ---
 
 ## **Set Up**
-   Log into HPC and go into your /ocean/projects/agr250001p/username 
+   Log into HPC and go into your /ocean/projects/bio260081p/username 
 
 ```bash
-cd /ocean/projects/agr250001p/user.name
+cd /ocean/projects/bio260081p/user.name
 ```
 ## Create New Fork 
 Create your own fork of 'Student-Led-Tutorial-2' to have your own copy of the repository.
@@ -74,7 +74,7 @@ seqtk sample -s100 ERR13601257_2.fastq 0.25 > ERR13601257_subsampled_2.fastq   #
    - Run FastQC;
 
 ```bash
-./FastQC/fastqc ERR13601257_subsampled_1.fastq EER13601257_subsampled_2.fastq #if using subsamples, replace file names accordingly.
+./FastQC/fastqc ERR13601257_subsampled_1.fastq ERR13601257_subsampled_2.fastq #if using subsamples, replace file names accordingly.
 ```
 
 3. Optionally trim low-quality bases and adapters using Trimmomatic:
