@@ -74,7 +74,7 @@ seqtk sample -s100 ERR13601257_2.fastq 0.05 > ERR13601257_subsampled_2.fastq   #
 ### **Part 2: Running SPAdes**
 1. Perform de novo assembly using SPAdes:
 ```bash
-python3 ./SPAdes-3.15.0-Linux/bin/spades.py -1 trimmed_1.fastq -2 trimmed_2.fastq -o spades_output -t 16 -m 32
+python3 ./SPAdes-3.15.0-Linux/bin/spades.py -1 trimmed_1.fastq -2 trimmed_2.fastq -o spades_output -t 16 -m 28
 ```
 - -1 and -2: Paired-end reads.
 - -o: Specify the output directory (e.g., spades_output).
