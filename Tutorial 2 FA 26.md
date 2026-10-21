@@ -62,8 +62,8 @@ fastq-dump --split-files ERR13601257
 - Subsample files for the tutorial, otherwise, the run will take up a lot of time.
 ```bash
 #Make sure seqtk is installed in the HPC beforehand. If not, use a conda environment.
-seqtk sample -s100 ERR13601257_1.fastq 0.10 > ERR13601257_subsampled_1.fastq   #Samples 25% of reads in file
-seqtk sample -s100 ERR13601257_2.fastq 0.10 > ERR13601257_subsampled_2.fastq   #Samples 25% of reads in file
+seqtk sample -s100 ERR13601257_1.fastq 0.10 > ERR13601257_subsampled_1.fastq   #Samples 10% of reads in file
+seqtk sample -s100 ERR13601257_2.fastq 0.10 > ERR13601257_subsampled_2.fastq   #Samples 10% of reads in file
 ```
 
 ## **Tasks and Deliverables**
