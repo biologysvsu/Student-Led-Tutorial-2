@@ -23,7 +23,6 @@ Create a tutorial for your peers on conducting a de novo genome assembly using t
 ```bash
 cd /ocean/projects/bio260081p/user.name
 ```
-## Create New Fork 
 
 
 ## Install Dependencies
