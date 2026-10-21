@@ -24,17 +24,7 @@ Create a tutorial for your peers on conducting a de novo genome assembly using t
 cd /ocean/projects/bio260081p/user.name
 ```
 ## Create New Fork 
-Create your own fork of 'Student-Led-Tutorial-2' to have your own copy of the repository.
-  
-```bash
-git clone https://github.com/user-name/Student-Led-Tutorial-2.git
-```
-```bash
-cd Student-Led-Tutorial-2
-```
-```bash
-interact
-```
+
 
 ## Install Dependencies
 - Edit .slurm script.
