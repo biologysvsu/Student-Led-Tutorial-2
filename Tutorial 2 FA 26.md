@@ -5,7 +5,12 @@
 ## **Objective**
 Create a tutorial for your peers on conducting a de novo genome assembly using the SPAdes assembler. This tutorial will walk students through preparing the data, executing SPAdes, assessing the quality of the assembly, and visualizing the results.
 
+For this tutorial, we will be analyzing DNA sequencing data collected from seal feces, or seal poop. Seal feces can contain bacteria, viruses, and other microorganisms that may enter the surrounding environment through fecal contamination. Studying these samples can help scientists better understand microbial communities and investigate potential environmental health concerns.
+
+Our goal is to take the short DNA sequences collected from these samples and assemble them into longer sequences. This is called de novo assembly, which means putting DNA sequences together without using a reference genome. We will then evaluate our assembly and visualize the results.
+
 ---
+Before getting started, we need a few different programs. Each program has a specific purpose and helps us complete a different part of the assembly process.
 
 ## **Required Software**
 1. **SPAdes**: For de novo genome assembly.
@@ -14,7 +19,7 @@ Create a tutorial for your peers on conducting a de novo genome assembly using t
    - Will be done via slurm.
 3. **Bandage**: For assembly visualization.
    - [Bandage GitHub](https://rrwick.github.io/Bandage/)
-
+We will also use FastQC to check the quality of our DNA reads, Trimmomatic to clean them, and seqtk to make our dataset smaller.
 ---
 
 ## **Set Up**
