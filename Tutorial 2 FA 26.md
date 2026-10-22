@@ -19,6 +19,7 @@ Before getting started, we need a few different programs. Each program has a spe
    - Will be done via slurm.
 3. **Bandage**: For assembly visualization.
    - [Bandage GitHub](https://rrwick.github.io/Bandage/)
+  
 We will also use FastQC to check the quality of our DNA reads, Trimmomatic to clean them, and seqtk to make our dataset smaller.
 ---
 
