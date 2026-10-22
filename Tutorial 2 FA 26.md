@@ -129,8 +129,14 @@ python3 ./quast-5.3.0/quast.py -o quast_output spades_output/contigs.fasta
    - GC content.
 
 ### **Part 4: Visualizing the Assembly**
-1. Use Bandage to visualize the assembly graph:
-- Load the SPAdes assembly graph (spades_output/assembly_graph.gfa) into Bandage.
-- Identify contigs and potential misassemblies.
-- Save a screenshot of the graph.
-- -BLAST
+1. Go to https://ondemand.bridges2.psc.edu/
+- Go to your oceans/projects/bio260081p/*username*/spades.slurm
+- Download the file assembly_graph.fastg
+2. Use Bandage to visualize the assembly graph:
+- Load the SPAdes assembly graph (spades_output/assembly_graph.fastg) into Bandage.
+  
+### **Part 5: Blasting Contigs**
+- Identify contigs and select a node to BLAST
+- Go to options and press Wed BLAST selected node
+- Under Program Selection choose somewhat similar sequences
+- BLAST your node and see what you get!
